@@ -2,6 +2,8 @@
 <html>
 
 <style>
+html {background-color: rgba(190, 190, 190, 0.699);}
+
 #title {
     display: flex;
     flex-direction: column;
@@ -13,7 +15,16 @@
     flex-direction: column;
     align-items:center;
 align-content: center;
-}
+background-color: white;
+max-width: 100%;
+margin:1em;
+padding:2em;
+justify-content: center;}
+
+img {max-width: 100%;
+padding:0.5em;
+border: black;
+border-style: solid;}
 
 #main {display: flex;
 flex-direction: column;
@@ -21,6 +32,15 @@ align-items: center;}
 
 #tribute_info {margin:auto;
 width: 600px;}
+
+#quote{width: 600px;
+margin:auto;}
+
+footer {background-color:skyblue;
+display:flex;
+flex-direction: column;
+align-items: center;}
+
 </style>
 
 <header>
@@ -69,17 +89,17 @@ width: 600px;}
 
 </div>
 <div id="quote">
-<p>"Borlaugh's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."</p>
-<p>-- Indian Prime Miniester Manmohan Singh</p>
+<p><i>"Borlaugh's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."</p>
+</i><p><i>-- Indian Prime Miniester Manmohan Singh</i></p>
 </div> 
 
 </body>
 
 
 
-<footer>
+<footer><p id="link">
 If you have time, you should read more about this incredible human being on his <a id="tribute_link "href="" target="_blank">Wikipedia entry</a>
-
+</p>
 </footer>
 
 
