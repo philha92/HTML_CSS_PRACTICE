@@ -17,9 +17,9 @@ html {background-color: rgba(190, 190, 190, 0.699);}
 align-content: center;
 background-color: white;
 max-width: 100%;
-margin:1em;
-padding:2em;
-justify-content: center;}
+margin:0.5em;
+padding:0.5em;
+justify-items: center;}
 
 img {max-width: 100%;
 padding:0.5em;
@@ -31,16 +31,25 @@ flex-direction: column;
 align-items: center;}
 
 #tribute_info {margin:auto;
-width: 600px;}
+width: 600px;
+}
 
-#quote{width: 600px;
+.quote{width: 600px;
 margin:auto;}
 
+#quote_line {padding: 1em;}
 footer {background-color:skyblue;
 display:flex;
 flex-direction: column;
 align-items: center;}
 
+#img-caption {width:100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;}
+
+li {padding: 0.5em;}
 </style>
 
 <header>
@@ -88,9 +97,11 @@ align-items: center;}
 </ul>
 
 </div>
-<div id="quote">
-<p><i>"Borlaugh's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."</p>
-</i><p><i>-- Indian Prime Miniester Manmohan Singh</i></p>
+<div class="quote">
+<div id="quote_line">
+    <quote><i>"Borlaugh's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."</p>
+</i></quote> <label><i>-- Indian Prime Miniester Manmohan Singh</i></label>
+</div>
 </div> 
 
 </body>
